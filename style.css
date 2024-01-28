@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    background-color: rgb(196, 255, 249);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.counter {
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.btn-primary {
+    background-color: #0e72de;
+}
+
+.btn-primary:hover {
+    background-color: dodgerblue;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.btn-success:hover {
+    background-color: darkgreen;
+}
+
+.hide-btn {
+    display: none;
+}
+
+#balance-bar {
+    height: 10px;
+    margin: 20px auto;
+    background-color: linear-gradient(90deg, #4CAF50 0%, #FF5733 0%, #FF5733 100%);
+}

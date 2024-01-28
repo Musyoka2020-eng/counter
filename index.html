@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Counter App</h2>
+            </div>
+            <p class="rating" id="rate"></p>
+            <div class="card-body">
+                <div class="counter">
+                    <h1 id="click"></h1>
+                    <p>Clicks</p>
+                </div>
+                <div class="counter">
+                    <h1 id="like"></h1>
+                    <p><span id="perlike"></span> Likes</p>
+                </div>
+                <div class="counter">
+                    <h1 id="dislike"></h1>
+                    <p><span id="perdislike"></span> Dislikes</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary" onclick="handleButtonClick('like-btn')">Increment</button>
+                <button class="btn btn-success reset hide-btn" onclick="handleButtonClick('reset-btn')">Reset</button>
+                <button class="btn btn-danger" onclick="handleButtonClick('dislike-btn')">Decrement</button>
+            </div>
+            <div id="balance-bar"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
